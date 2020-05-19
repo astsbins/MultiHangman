@@ -33,3 +33,10 @@ p {
     justify-content: center;
 }
 
+button{
+    font-size: 25px;
+    background-color: #cccccc;
+    border: black;
+    padding: 8px;
+
+}

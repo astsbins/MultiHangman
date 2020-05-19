@@ -1,0 +1,27 @@
+{
+  "name": "multihangman",
+  "version": "1.0.0",
+  "description": "a mulitplayer hangman app",
+  "main": "learning.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astsbins/MultiHangman.git"
+  },
+  "author": "Jack and Suarav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astsbins/MultiHangman/issues"
+  },
+  "homepage": "https://github.com/astsbins/MultiHangman#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.25.3",
+    "nodemon": "^2.0.4",
+    "npm": "^6.14.5",
+    "socket.io": "^2.3.0"
+  }
+}

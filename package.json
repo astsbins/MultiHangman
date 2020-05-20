@@ -2,7 +2,7 @@
   "name": "multihangman",
   "version": "1.0.0",
   "description": "a mulitplayer hangman app",
-  "main": "learning.js",
+  "main": "Server.js",
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
@@ -20,8 +20,10 @@
   "dependencies": {
     "express": "^4.17.1",
     "moment": "^2.25.3",
-    "nodemon": "^2.0.4",
     "npm": "^6.14.5",
     "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
